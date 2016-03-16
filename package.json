@@ -5,10 +5,14 @@
   "repository": "m31271n/require-no-cache",
   "main": "index.js",
   "scripts": {
+    "test": "mocha --harmony"
   },
   "engines": {
-      "node": ">= 0.12.0"
+    "node": ">= 0.12.0"
   },
   "author": "m31271n",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
 }
