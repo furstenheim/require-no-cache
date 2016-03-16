@@ -1,6 +1,6 @@
 {
   "name": "require-no-cache",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Call require() without cache",
   "repository": "m31271n/require-no-cache",
   "main": "index.js",
