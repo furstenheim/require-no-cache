@@ -10,11 +10,11 @@ Call `require()` without cache.
 
 `example.js`:
 
-    var require-no-cache = require('require-nocache')(module)
+    var requireNoCache = require('require-no-cache')(module)
 
     setInterval(
       function(){
-        console.log(require-no-cache('./data'))
+        console.log(requireNoCache('./data'))
       },
       100
     )
