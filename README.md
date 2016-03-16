@@ -1,4 +1,4 @@
-# require-nocache
+# require-no-cache
 
 Call `require()` without cache.
 
