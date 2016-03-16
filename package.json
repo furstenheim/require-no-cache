@@ -14,5 +14,8 @@
   "license": "MIT",
   "devDependencies": {
     "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "stack-trace": "0.0.9"
   }
 }
