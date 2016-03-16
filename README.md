@@ -33,6 +33,7 @@ Output
 ## Similar Things
 
 * [require-new](https://github.com/gajus/require-new)
+* [require-nocache](https://github.com/yuri0/require-nocache)
 * [decache](https://github.com/dwyl/decache)
 
 # Read More
