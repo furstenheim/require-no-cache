@@ -1,0 +1,14 @@
+{
+  "name": "require-no-cache",
+  "version": "0.1.0",
+  "description": "require a module without cache",
+  "repository": "m31271n/require-no-cache",
+  "main": "index.js",
+  "scripts": {
+  },
+  "engines": {
+      "node": ">= 0.12.0"
+  },
+  "author": "m31271n",
+  "license": "MIT"
+}
