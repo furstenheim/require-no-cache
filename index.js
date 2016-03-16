@@ -1,9 +1,11 @@
 
 'use strict';
 
-var Module = require('module');
+var _module = require('module');
 
-module.exports = function(path) {
-  delete require.cache[Module._resolveFilename(path)];
-  return require(path);
+module.exports = function (mod) {
+  return function (path) {
+    delete require.cache[_module._resolveFilename(path, mod)];
+    return mod.require(path);
+  };
 };

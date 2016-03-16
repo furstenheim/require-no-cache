@@ -1,7 +1,6 @@
 # require-nocache
 
-A module for non-caching `require()` calls. Useful for avoiding server
-restarts when developing; probably shouldn't ever be used in production.
+Call `require()` without cache.
 
 ## Installation
 
@@ -37,4 +36,3 @@ Output
     0.630417198408395
     0.6075419373810291
     0.9156523894052953
-
